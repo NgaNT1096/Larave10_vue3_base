@@ -1,5 +1,9 @@
 @layer components {
-  .style-basic:not(.dark) {
+    body {
+        font-family: "Public Sans", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 15px;
+    }
+  /* .style-basic:not(.dark) {
     .aside {
       @apply bg-bg_green_default;
     }
@@ -27,5 +31,5 @@
     .overlay {
       @apply from-gray-700 via-gray-900 to-gray-700;
     }
-  }
+  } */
 }
